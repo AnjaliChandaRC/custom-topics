@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+.tabs_btn {
+    border: 5px solid skyblue;
+    border-radius: 20px;
+    font-weight: 700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tabs_parent {
+    max-width: 800px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tabs_para_parent {
+    max-width: 600px;
+    padding: 30px 20px;
+    margin-top: 150px;
+    font-weight: 700;
+    border: 5px solid skyblue;
+    border-radius: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.accordion_text {
+    font-size: 20px;
+    color: brown;
+    font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+.accordion_transition p {
+    transition: all 0.3s ease-in-out;
+    display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar_btn {
+    border: transparent;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: black;
+    z-index: 10;
+}
+
+.sidebar_parent {
+    background: wheat;
+    width: 300px;
+    height: 100vh;
+    transition: all 0.3s ease-in-out;
+    z-index: 20;
+}
+
+.sidebar_left_0 {
+    left: 0;
+}
+
+.sidebar_left_300 {
+    left: -300px;
+}
+
+.faded {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    background-color: rgb(152, 147, 140);
+}
+
+.active_sidebar .faded {
+    opacity: .5;
+    z-index: 10;
+    height: 100vh;
 }
