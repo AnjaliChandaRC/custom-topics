@@ -5,6 +5,9 @@ import CustomSelect from "./components/CustomSelect";
 import TextEditor from "./components/TextEditor";
 import FAQs from "./components/FAQs";
 import Sidebar from "./components/Sidebar";
+import Count from "./components/Count";
+import FormValidation from "./components/FormValidation";
+import FormTypical from "./components/FormTypical";
 
 function App() {
   return (
@@ -12,8 +15,11 @@ function App() {
       {/* <CustomTabs /> */}
       {/* <CustomSelect /> */}
       {/* <TextEditor /> */}
-      <FAQs/>
+      {/* <FAQs/> */}
       {/* <Sidebar/> */}
+      {/* <Count /> */}
+      {/* <FormValidation/> */}
+      <FormTypical/>
     </>
   );
 }

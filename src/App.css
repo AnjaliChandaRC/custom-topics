@@ -67,3 +67,12 @@
     z-index: 10;
     height: 100vh;
 }
+
+.typical_form_parent {
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+.typical_form_parent_width {
+    width: 400px;
+}
