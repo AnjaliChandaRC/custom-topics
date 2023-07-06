@@ -36,7 +36,7 @@ const FormTypical = () => {
   };
   return (
     <>
-      <div className="text-center mt-5 typical_form_parent typical_form_parent_width mx-auto px-4">
+      <div className="text-center mt-4 typical_form_parent typical_form_parent_width mx-auto px-4">
         <h3 className="text-danger pt-3">Typical Form</h3>
         <form action="" onSubmit={(e) => OnsubmitHandler(e)}>
           <div className="pt-4">
